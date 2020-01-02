@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>search</name>
+   <name>write_result2excel</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9a87d1cc-9636-4822-bb9d-620d1e60605f</testCaseGuid>
+   <testCaseGuid>b23d1fda-7278-4f70-86a8-e79b59bc36e3</testCaseGuid>
    <variable>
-      <defaultValue>'1'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>1d3a798d-04a1-497c-a19d-b70fdeb9b200</id>
+      <id>43e78281-b6f7-475f-9d78-9c769a42416b</id>
       <masked>false</masked>
       <name>inx</name>
    </variable>
    <variable>
-      <defaultValue>'Allen'</defaultValue>
+      <defaultValue>'yuoi'</defaultValue>
       <description></description>
-      <id>581c37ae-6ed5-40ae-a1c2-6c4f1d19dbc4</id>
+      <id>c9754edc-928e-4aff-97a5-b95bbdb1bf78</id>
       <masked>false</masked>
-      <name>SearchString</name>
+      <name>rr</name>
    </variable>
 </TestCaseEntity>

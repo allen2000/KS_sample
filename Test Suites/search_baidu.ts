@@ -15,11 +15,26 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/search</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>167db15f-03f9-4b2d-9ecd-07e422d16af9</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-3</value>
+         </iterationEntity>
+         <testDataId>Data Files/Test Data</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>167db15f-03f9-4b2d-9ecd-07e422d16af9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SearchString</value>
          <variableId>581c37ae-6ed5-40ae-a1c2-6c4f1d19dbc4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>167db15f-03f9-4b2d-9ecd-07e422d16af9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>inx</value>
+         <variableId>1d3a798d-04a1-497c-a19d-b70fdeb9b200</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
