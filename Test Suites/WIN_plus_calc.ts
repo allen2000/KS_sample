@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>WIN_plus_calc</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>51b673f4-939b-456c-baa4-8cdb4adb69ba</testSuiteGuid>
+   <testCaseLink>
+      <guid>0c001e53-8ff7-4c39-be96-7764a5524d0c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WIN_UI_calc</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4bc2614c-561b-451a-bd2a-c4a63d2ceb60</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>3</value>
+         </iterationEntity>
+         <testDataId>Data Files/WIN_UI</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>4bc2614c-561b-451a-bd2a-c4a63d2ceb60</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Addend</value>
+         <variableId>009312d7-63e5-4b57-aac1-f2bf7861dd85</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4bc2614c-561b-451a-bd2a-c4a63d2ceb60</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Augend</value>
+         <variableId>92bafb7f-7cba-4a86-95f0-b486a59b285e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4bc2614c-561b-451a-bd2a-c4a63d2ceb60</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Except_RESULT</value>
+         <variableId>46760c60-d810-4e8e-be77-a22134f57559</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4bc2614c-561b-451a-bd2a-c4a63d2ceb60</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>inx</value>
+         <variableId>a2110bdb-a58a-4c1b-96e5-7bae4308a181</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

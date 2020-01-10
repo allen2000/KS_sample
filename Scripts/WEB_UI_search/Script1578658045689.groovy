@@ -13,23 +13,31 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-import java.io.FileInputStream as FileInputStream
-import java.io.FileNotFoundException as FileNotFoundException
-import java.io.IOException as IOException
-import java.util.Date as Date
-import java.text.SimpleDateFormat
-import org.apache.poi.xssf.usermodel.XSSFCell as XSSFCell
-import org.apache.poi.xssf.usermodel.XSSFRow as XSSFRow
-import org.apache.poi.xssf.usermodel.XSSFSheet as XSSFSheet
-import org.apache.poi.xssf.usermodel.XSSFWorkbook as XSSFWorkbook
-import java.lang.String as String
+WebUI.setText(findTestObject('Object Repository/Page_/input__wd'), SearchString)
 
-FileInputStream file = new FileInputStream (new File("data.xlsx"))
-XSSFWorkbook workbook = new XSSFWorkbook(file);
-XSSFSheet sheet = workbook.getSheetAt(sheetInx.toInteger());
+WebUI.click(findTestObject('Object Repository/Page_/input__su'))
 
-sheet.getRow(inx.toInteger()).createCell(cellNO.toInteger()).setCellValue(rr);
-file.close();
-FileOutputStream outFile =new FileOutputStream(new File("data.xlsx"));
-workbook.write(outFile);
-outFile.close();
+WebUI.delay(2)
+
+tt = WebUI.getWindowTitle()
+
+assert tt == (SearchString + '_百度搜索')
+
+@com.kms.katalon.core.annotation.SetUp
+def set_up() {
+    WebUI.openBrowser('')
+
+    WebUI.navigateToUrl('https://www.baidu.com/')
+
+    WebUI.callTestCase(findTestCase('common/init _result2excel'), [('inx') : inx, ('rr') : ' ', ('cellNO') : '3', ('sheetInx') : '0'], 
+        FailureHandling.STOP_ON_FAILURE)
+}
+
+@com.kms.katalon.core.annotation.TearDown
+def Tear_Down() {
+    WebUI.callTestCase(findTestCase('common/write_result2excel'), [('inx') : inx, ('rr') : SearchString + '_百度搜索', ('cellNO') : '3'
+            , ('sheetInx') : '0'], FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.closeBrowser()
+}
+

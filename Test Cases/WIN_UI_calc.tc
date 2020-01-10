@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WIN_UI_calc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>527ccd01-e5cf-4d54-aad7-813f878eeec0</testCaseGuid>
+   <variable>
+      <defaultValue>'num8Button'</defaultValue>
+      <description></description>
+      <id>009312d7-63e5-4b57-aac1-f2bf7861dd85</id>
+      <masked>false</masked>
+      <name>Addend</name>
+   </variable>
+   <variable>
+      <defaultValue>'num7Button'</defaultValue>
+      <description></description>
+      <id>92bafb7f-7cba-4a86-95f0-b486a59b285e</id>
+      <masked>false</masked>
+      <name>Augend</name>
+   </variable>
+   <variable>
+      <defaultValue>'显示为 15'</defaultValue>
+      <description></description>
+      <id>46760c60-d810-4e8e-be77-a22134f57559</id>
+      <masked>false</masked>
+      <name>Except_RESULT</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>a2110bdb-a58a-4c1b-96e5-7bae4308a181</id>
+      <masked>false</masked>
+      <name>inx</name>
+   </variable>
+</TestCaseEntity>

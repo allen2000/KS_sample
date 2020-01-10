@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>search_baidu</name>
+   <name>WEBUI_search_baidu</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -14,15 +14,15 @@
       <guid>2c33d8b3-0989-4942-9881-7fc89e63b491</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/search</testCaseId>
+      <testCaseId>Test Cases/WEB_UI_search</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>167db15f-03f9-4b2d-9ecd-07e422d16af9</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-3</value>
+            <iterationType>ALL</iterationType>
+            <value>1-1</value>
          </iterationEntity>
-         <testDataId>Data Files/Test Data</testDataId>
+         <testDataId>Data Files/WEB_UI</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>167db15f-03f9-4b2d-9ecd-07e422d16af9</testDataLinkId>

@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>write_result2excel</name>
+   <name>init _result2excel</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b23d1fda-7278-4f70-86a8-e79b59bc36e3</testCaseGuid>
+   <testCaseGuid>ba5d260c-2fc7-4b0e-b407-0e321c2fb9e2</testCaseGuid>
    <variable>
       <defaultValue>'1'</defaultValue>
       <description></description>
-      <id>43e78281-b6f7-475f-9d78-9c769a42416b</id>
+      <id>9a9be060-6acf-4c70-8d09-b18d6052a718</id>
       <masked>false</masked>
       <name>inx</name>
    </variable>
    <variable>
-      <defaultValue>'yuoi'</defaultValue>
+      <defaultValue>' '</defaultValue>
       <description></description>
-      <id>c9754edc-928e-4aff-97a5-b95bbdb1bf78</id>
+      <id>50ed769f-5d69-4b96-b1c1-f6ff9ef414d7</id>
       <masked>false</masked>
       <name>rr</name>
    </variable>
    <variable>
       <defaultValue>'3'</defaultValue>
       <description></description>
-      <id>411f12d1-4d43-4b3d-af78-bb4f48e2d6a7</id>
+      <id>e43f345e-31b7-49d8-b540-17beea2e58d1</id>
       <masked>false</masked>
       <name>cellNO</name>
    </variable>
    <variable>
-      <defaultValue>'0'</defaultValue>
+      <defaultValue>0</defaultValue>
       <description></description>
-      <id>f5641ba5-b3c3-4fbb-a7b7-5e7c0e6f7fce</id>
+      <id>5dfd1579-6cb7-4a96-9edb-c14e29fdffea</id>
       <masked>false</masked>
       <name>sheetInx</name>
    </variable>
