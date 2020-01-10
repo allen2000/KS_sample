@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>plus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>47698b51-115c-4ed8-8c11-d9afcbf1c59e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f110c7c7-9d77-416b-8c4b-b55daebd6d09</id>
+      <masked>false</masked>
+      <name>a</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aac1231b-092e-4156-93e0-7e81d58dbfbe</id>
+      <masked>false</masked>
+      <name>b</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fff6e122-4d40-41a4-ac33-3712d19e6c20</id>
+      <masked>false</masked>
+      <name>rr</name>
+   </variable>
+</TestCaseEntity>

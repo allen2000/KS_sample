@@ -14,7 +14,7 @@
       <guid>0c001e53-8ff7-4c39-be96-7764a5524d0c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/WIN_UI_calc</testCaseId>
+      <testCaseId>Test Cases/UI/WIN_UI_calc</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4bc2614c-561b-451a-bd2a-c4a63d2ceb60</id>
