@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-res = WS.sendRequest(findTestObject('API0/Restful/Get'))
+res = WS.sendRequest(findTestObject('API/Restful/Get'))
 
 WS.verifyResponseStatusCode(res, 200)
 

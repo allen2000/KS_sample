@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-res0 = WS.sendRequest(findTestObject('API0/Soap/plus', [('a') : findTestData('CALC').getValue(1, 1), ('b') : findTestData(
+res0 = WS.sendRequest(findTestObject('API/Soap/plus', [('a') : findTestData('CALC').getValue(1, 1), ('b') : findTestData(
                 'CALC').getValue(2, 1)]))
 
 WS.verifyResponseStatusCode(res0, 200)
