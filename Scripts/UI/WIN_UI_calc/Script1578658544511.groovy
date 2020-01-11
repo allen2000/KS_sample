@@ -51,13 +51,15 @@ driver.findElement(By.id('Close')).click()
 
 @com.kms.katalon.core.annotation.SetUp
 def WIN_setup() {
-    WebUI.callTestCase(findTestCase('common/init _result2excel'), [('inx') : inx, ('rr') : ' ', ('cellNO') : 4, ('sheetInx') : 1], 
+    WebUI.callTestCase(findTestCase('Common/run_win_desktop'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.callTestCase(findTestCase('Common/init _result2excel'), [('inx') : inx, ('rr') : ' ', ('cellNO') : 4, ('sheetInx') : 1], 
         FailureHandling.STOP_ON_FAILURE)
 }
 
 @com.kms.katalon.core.annotation.TearDown
 def WIN_teardown() {
-    WebUI.callTestCase(findTestCase('common/write_result2excel'), [('inx') : inx, ('rr') : rr, ('cellNO') : 4, ('sheetInx') : 1], 
+    WebUI.callTestCase(findTestCase('Common/write_result2excel'), [('inx') : inx, ('rr') : rr, ('cellNO') : 4, ('sheetInx') : 1], 
         FailureHandling.STOP_ON_FAILURE)
 }
 

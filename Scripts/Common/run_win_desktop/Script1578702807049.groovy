@@ -13,31 +13,5 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('Object Repository/Page_/input__wd'), SearchString)
-
-WebUI.click(findTestObject('Object Repository/Page_/input__su'))
-
-WebUI.delay(2)
-
-tt = WebUI.getWindowTitle()
-
-assert tt == (SearchString + '_百度搜索')
-
-@com.kms.katalon.core.annotation.SetUp
-def set_up() {
-    WebUI.openBrowser('')
-
-    WebUI.navigateToUrl('https://www.baidu.com/')
-
-    WebUI.callTestCase(findTestCase('Common/init _result2excel'), [('inx') : inx, ('rr') : ' ', ('cellNO') : '3', ('sheetInx') : '0'], 
-        FailureHandling.STOP_ON_FAILURE)
-}
-
-@com.kms.katalon.core.annotation.TearDown
-def Tear_Down() {
-    WebUI.callTestCase(findTestCase('Common/write_result2excel'), [('inx') : inx, ('rr') : SearchString + '_百度搜索', ('cellNO') : '3'
-            , ('sheetInx') : '0'], FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.closeBrowser()
-}
-
+autorun_win = '.\\Tools\\Win.Desktop.Driver.exe'
+Runtime.getRuntime().exec(autorun_win)
