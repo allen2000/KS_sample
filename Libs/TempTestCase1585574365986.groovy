@@ -14,9 +14,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\UI\\WIN_UI_calc\\20200111_083207\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Common\\run_win_desktop\\20200330_211925\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/UI/WIN_UI_calc', new TestCaseBinding('Test Cases/UI/WIN_UI_calc',[:]), FailureHandling.STOP_ON_FAILURE , true, true)
+        TestCaseMain.runTestCase('Test Cases/Common/run_win_desktop', new TestCaseBinding('Test Cases/Common/run_win_desktop',[:]), FailureHandling.STOP_ON_FAILURE , true, true)
     

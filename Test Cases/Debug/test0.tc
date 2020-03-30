@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test0</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c5e9039e-ae1f-413c-86e5-720e4db02b69</testCaseGuid>
+   <variable>
+      <defaultValue>'num8Button'</defaultValue>
+      <description></description>
+      <id>e188df3a-5042-429a-ba1e-1e9ed15dae07</id>
+      <masked>false</masked>
+      <name>Addend</name>
+   </variable>
+   <variable>
+      <defaultValue>'num7Button'</defaultValue>
+      <description></description>
+      <id>1d680b40-4acc-4866-b0a6-ab8dff220c12</id>
+      <masked>false</masked>
+      <name>Augend</name>
+   </variable>
+   <variable>
+      <defaultValue>'显示为 15'</defaultValue>
+      <description></description>
+      <id>eb60593f-739d-40ff-9929-063dff72a11e</id>
+      <masked>false</masked>
+      <name>Except_RESULT</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>3dbeaed7-731e-45f8-b3ae-7747f7a4838e</id>
+      <masked>false</masked>
+      <name>inx</name>
+   </variable>
+</TestCaseEntity>

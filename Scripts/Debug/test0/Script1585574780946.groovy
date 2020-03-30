@@ -35,11 +35,11 @@ driver = new WiniumDriver(new URL('http://localhost:9999'), option)
 
 Thread.sleep(2000)
 
-driver.findElement(By.id(Addend)).click()
+driver.findElement(By.id('num8Button')).click()
 
 driver.findElement(By.id('plusButton')).click()
 
-driver.findElement(By.id(Augend)).click()
+driver.findElement(By.id('num7Button')).click()
 
 driver.findElement(By.id('equalButton')).click()
 
@@ -48,18 +48,3 @@ rr = driver.findElement(By.id('CalculatorResults')).getAttribute('Name')
 assert rr == Except_RESULT
 
 driver.findElement(By.id('Close')).click()
-
-@com.kms.katalon.core.annotation.SetUp
-def WIN_setup() {
-    WebUI.callTestCase(findTestCase('Common/run_win_desktop'), [:], FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.callTestCase(findTestCase('Common/init _result2excel'), [('inx') : inx, ('rr') : ' ', ('cellNO') : 4, ('sheetInx') : 1], 
-        FailureHandling.STOP_ON_FAILURE)
-}
-
-@com.kms.katalon.core.annotation.TearDown
-def WIN_teardown() {
-    WebUI.callTestCase(findTestCase('Common/write_result2excel'), [('inx') : inx, ('rr') : rr, ('cellNO') : 4, ('sheetInx') : 1], 
-        FailureHandling.STOP_ON_FAILURE)
-}
-
