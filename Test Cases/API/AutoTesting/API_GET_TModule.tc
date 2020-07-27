@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>API_GET_TModule</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7970841b-ca9f-4ed5-a466-f837dc88fb13</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('API_Get').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>bfde8a19-4804-453c-bc97-b78d1b45431b</id>
+      <masked>false</masked>
+      <name>base_url</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('API_Get').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>0c3ff96b-944a-4343-98cf-fb04019bf8cf</id>
+      <masked>false</masked>
+      <name>path</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('API_Get').getValue(6, 1)</defaultValue>
+      <description></description>
+      <id>98f9a872-ba1b-44dc-9633-5e039f531a73</id>
+      <masked>false</masked>
+      <name>status_code</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('API_Get').getValue(7, 1)</defaultValue>
+      <description></description>
+      <id>988dc9fa-d272-483c-a731-0f64901e912c</id>
+      <masked>false</masked>
+      <name>resp_body</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('API_Get').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b83f92cb-d511-46c2-b6b2-161977696592</id>
+      <masked>false</masked>
+      <name>index</name>
+   </variable>
+</TestCaseEntity>

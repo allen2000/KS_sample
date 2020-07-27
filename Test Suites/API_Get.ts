@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>API_Get</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>02a54bad-5ed2-4185-9852-1ef1b0f3fe36</testSuiteGuid>
+   <testCaseLink>
+      <guid>24701e24-72a2-492d-9dac-ea14d4f357a5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/AutoTesting/API_GET_TModule</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e2ed36ca-c891-49c0-a8b4-e47217429538</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/API_Get</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e2ed36ca-c891-49c0-a8b4-e47217429538</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>base_url</value>
+         <variableId>bfde8a19-4804-453c-bc97-b78d1b45431b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2ed36ca-c891-49c0-a8b4-e47217429538</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>path</value>
+         <variableId>0c3ff96b-944a-4343-98cf-fb04019bf8cf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2ed36ca-c891-49c0-a8b4-e47217429538</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>status_code</value>
+         <variableId>98f9a872-ba1b-44dc-9633-5e039f531a73</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2ed36ca-c891-49c0-a8b4-e47217429538</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>resp_body</value>
+         <variableId>988dc9fa-d272-483c-a731-0f64901e912c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2ed36ca-c891-49c0-a8b4-e47217429538</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>index</value>
+         <variableId>b83f92cb-d511-46c2-b6b2-161977696592</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>API_POST_TModule</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5d2e07be-6481-494e-943b-8047c1c4ce21</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('API_Post').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>f12e188c-9a09-4e34-bd06-69d38d4a3531</id>
+      <masked>false</masked>
+      <name>base_url</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('API_Post').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>b50f7af6-022e-47a9-9590-f937e35dc08e</id>
+      <masked>false</masked>
+      <name>path</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('API_Post').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>5af2496f-6307-40bb-8f85-7dc4b39be448</id>
+      <masked>false</masked>
+      <name>req_body</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('API_Post').getValue(6, 1)</defaultValue>
+      <description></description>
+      <id>194c32e0-a954-4a20-abf1-4808f49bc435</id>
+      <masked>false</masked>
+      <name>status_code</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('API_Post').getValue(7, 1)</defaultValue>
+      <description></description>
+      <id>30846685-67bb-48dd-ac9f-2ab03e4c7296</id>
+      <masked>false</masked>
+      <name>resp_body</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('API_Post').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>9b6f1997-3c5f-40d8-98be-b65848132418</id>
+      <masked>false</masked>
+      <name>index</name>
+   </variable>
+</TestCaseEntity>

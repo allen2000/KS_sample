@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>write_excel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a98e0df2-273c-441f-8e0c-8940f6b22d3f</testCaseGuid>
+   <variable>
+      <defaultValue>'API_Get'</defaultValue>
+      <description></description>
+      <id>e5683728-a21f-4633-92b5-6aee7fe595da</id>
+      <masked>false</masked>
+      <name>sheetname</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>35a56c34-20f9-42a6-9598-1708054d2738</id>
+      <masked>false</masked>
+      <name>inx</name>
+   </variable>
+   <variable>
+      <defaultValue>8</defaultValue>
+      <description></description>
+      <id>0e1d73a2-0569-4fd8-92c0-28fbffe30792</id>
+      <masked>false</masked>
+      <name>cellNO</name>
+   </variable>
+   <variable>
+      <defaultValue>'abcde'</defaultValue>
+      <description></description>
+      <id>5a4976c3-aabb-426e-99ae-d70618e8d3f9</id>
+      <masked>false</masked>
+      <name>rr</name>
+   </variable>
+</TestCaseEntity>
