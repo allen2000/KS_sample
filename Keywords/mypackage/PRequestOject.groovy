@@ -54,5 +54,4 @@ public class PRequestOject {
 		ResponseObject respObj = WS.sendRequest(ro)
 		return respObj
 	}
-
 }

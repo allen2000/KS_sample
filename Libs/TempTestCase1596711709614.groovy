@@ -14,9 +14,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\C\\AppData\\Local\\Temp\\Katalon\\Test Cases\\API\\AutoTesting\\API_GET_TModule\\20200727_142131\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\C\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Groovy\\hello\\20200806_190149\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/API/AutoTesting/API_GET_TModule', new TestCaseBinding('Test Cases/API/AutoTesting/API_GET_TModule',[:]), FailureHandling.STOP_ON_FAILURE , true, true)
+        TestCaseMain.runTestCase('Test Cases/Groovy/hello', new TestCaseBinding('Test Cases/Groovy/hello',[:]), FailureHandling.STOP_ON_FAILURE , true, true)
     
