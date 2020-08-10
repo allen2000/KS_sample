@@ -115,7 +115,6 @@
 	<classpathentry kind="lib" path="F:/Green/Katalon_Studio_Windows_64-6.3.3/Katalon_Studio_Windows_64-6.3.3/plugins/com.kms.katalon.preferences_1.0.0.201908270734.jar"/>
 	<classpathentry kind="lib" path="F:/Scripts/KS/KS_sample/Drivers/win-elements-desktop.jar"/>
 	<classpathentry kind="lib" path="F:/Scripts/KS/KS_sample/Drivers/win-webdriver.jar"/>
-	<classpathentry kind="lib" path="F:/Green/Katalon_Studio_Windows_64-6.3.3/Katalon_Studio_Windows_64-6.3.3/configuration/plugin/install/8413/1.0.8/katalon-studio-basic-report-plugin.jar"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
