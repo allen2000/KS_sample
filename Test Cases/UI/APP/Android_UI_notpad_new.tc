@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Android</name>
+   <name>Android_UI_notpad_new</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9e1d90cf-00de-4f04-849d-23d4db7fc50d</testCaseGuid>
+   <testCaseGuid>8addf973-5884-43d5-8770-861e0fd88bc2</testCaseGuid>
 </TestCaseEntity>

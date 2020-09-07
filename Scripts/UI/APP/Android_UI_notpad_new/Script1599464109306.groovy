@@ -13,3 +13,29 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+Mobile.startApplication('com.example.android.notepad.apk', false)
+
+'new'
+Mobile.tap(findTestObject('notepad/android.widget.ImageView0'), 0)
+
+Mobile.setText(findTestObject('notepad/android.widget.EditText0'), 'allen', 0)
+
+'save'
+Mobile.tap(findTestObject('notepad/android.widget.TextView0 - '), 0)
+
+'judgement'
+tt = Mobile.getAttribute(findTestObject('notepad/android.widget.TextView0 -  (2)'), 'text', 0)
+
+assert tt == 'allen'
+
+'options'
+Mobile.tap(findTestObject('notepad/android.widget.ImageButton0'), 0)
+
+'All delete'
+Mobile.tap(findTestObject('notepad/android.widget.TextView0 -  (1)'), 0)
+
+'confirm'
+Mobile.tap(findTestObject('notepad/android.widget.Button0 - '), 0)
+
+Mobile.closeApplication()
+
