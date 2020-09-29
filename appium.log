@@ -1,29 +1,29 @@
 [35m[Appium][39m Welcome to Appium v1.18.1
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 54347
-[35m[Appium][39m   tmpDir: C:\Users\ADMINI~1\AppData\Local\Temp\\Katalon\Appium\Temp1600874351412
-[35m[Appium][39m   chromedriverPort: 54350
+[35m[Appium][39m   port: 55508
+[35m[Appium][39m   tmpDir: C:\Users\ADMINI~1\AppData\Local\Temp\\Katalon\Appium\Temp1600874997313
+[35m[Appium][39m   chromedriverPort: 55509
 [35m[Appium][39m Deprecated server args:
-[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities '{"chromedriverPort":54350}'
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities '{"chromedriverPort":55509}'
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 54350
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:54347
+[35m[Appium][39m   chromedriverPort: 55509
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:55508
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
 [debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.18.1"}}
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m7 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
 [debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.18.1"}}
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
 [35m[HTTP][39m [90m{"desiredCapabilities":{"app":"D:\\je\\git_sample\\KS_sample\\Calculator-10.1.20.apk","autoGrantPermissions":true,"deviceId":"ca80bea4","deviceName":"Xiaomi Redmi Note 3 (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"ca80bea4"},"capabilities":{"desiredCapabilities":{"app":"D:\\je\\git_sample\\KS_sample\\Calculator-10.1.20.apk","autoGrantPermissions":true,"deviceId":"ca80bea4","deviceName":"Xiaomi Redmi Note 3 (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"ca80bea4"},"firstMatch":[{"platformName":"android"}]}}[39m
 [debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"app":"D:\\je\\git_sample\\KS_sample\\Calculator-10.1.20.apk","autoGrantPermissions":true,"deviceId":"ca80bea4","deviceName":"Xiaomi Redmi Note 3 (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"ca80bea4"},null,{"desiredCapabilities":{"app":"D:\\je\\git_sample\\KS_sample\\Calculator-10.1.20.apk","autoGrantPermissions":true,"deviceId":"ca80bea4","deviceName":"Xiaomi Redmi Note 3 (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"ca80bea4"},"firstMatch":[{"platformName":"android"}]}]
-[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1600874355120 (23:19:15 GMT+0800 (GMT+08:00))
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1600874999920 (23:29:59 GMT+0800 (GMT+08:00))
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   chromedriverPort
 [35m[Appium][39m The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","autoGrantPermissions","deviceId","deviceName","fullReset","newCommandTimeout","noReset","platform","udid"]
@@ -79,7 +79,7 @@
 [debug] [35m[BaseDriver][39m     "appium:platform": "ANDROID",
 [debug] [35m[BaseDriver][39m     "appium:udid": "ca80bea4",
 [debug] [35m[BaseDriver][39m     "platformName": "android",
-[debug] [35m[BaseDriver][39m     "appium:chromedriverPort": 54350
+[debug] [35m[BaseDriver][39m     "appium:chromedriverPort": 55509
 [debug] [35m[BaseDriver][39m   },
 [debug] [35m[BaseDriver][39m   "firstMatch": [
 [debug] [35m[BaseDriver][39m     {}
@@ -88,7 +88,7 @@
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   deviceId
 [35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: 614a3b8b-69b1-460e-bb2b-d136636d76ce
+[35m[BaseDriver][39m Session created with session id: 978369a4-6a2b-4f1f-bf49-ba75103a3e29
 [35m[BaseDriver][39m Using local app 'D:\je\git_sample\KS_sample\Calculator-10.1.20.apk'
 [debug] [35m[UiAutomator2][39m Checking whether app is actually present
 [35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Administrator\.katalon\tools\android_sdk' (newest first):
@@ -129,7 +129,7 @@
 [35m[ADB][39m The application at 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@3.2.0@io.appium.settings\apks\settings_apk-debug.apk' is already cached to '/data/local/tmp/appium_cache/ca734d53854fd1368352eb1ad91806dc6e03622f.apk'
 [debug] [35m[ADB][39m Running 'C:\Users\Administrator\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ca80bea4 shell touch -am /data/local/tmp/appium_cache/ca734d53854fd1368352eb1ad91806dc6e03622f.apk'
 [debug] [35m[ADB][39m Running 'C:\Users\Administrator\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ca80bea4 shell pm install -r -g /data/local/tmp/appium_cache/ca734d53854fd1368352eb1ad91806dc6e03622f.apk'
-[35m[ADB][39m The installation of 'settings_apk-debug.apk' took 1086ms
+[35m[ADB][39m The installation of 'settings_apk-debug.apk' took 633ms
 [debug] [35m[ADB][39m Install command stdout: pkg: /data/local/tmp/appium_cache/ca734d53854fd1368352eb1ad91806dc6e03622f.apk
 [debug] [35m[ADB][39m Error: java.lang.SecurityException: You need the android.permission.INSTALL_GRANT_RUNTIME_PERMISSIONS permission to use the PackageManager.INSTALL_GRANT_RUNTIME_PERMISSIONS flag
 [debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
@@ -194,7 +194,7 @@
 [35m[ADB][39m The application at 'D:\je\git_sample\KS_sample\Calculator-10.1.20.apk' is already cached to '/data/local/tmp/appium_cache/d2a45cebce1a47815720bb183a39cd5ef8f5f056.apk'
 [debug] [35m[ADB][39m Running 'C:\Users\Administrator\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ca80bea4 shell touch -am /data/local/tmp/appium_cache/d2a45cebce1a47815720bb183a39cd5ef8f5f056.apk'
 [debug] [35m[ADB][39m Running 'C:\Users\Administrator\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ca80bea4 shell pm install -r -g /data/local/tmp/appium_cache/d2a45cebce1a47815720bb183a39cd5ef8f5f056.apk'
-[35m[ADB][39m The installation of 'Calculator-10.1.20.apk' took 1183ms
+[35m[ADB][39m The installation of 'Calculator-10.1.20.apk' took 603ms
 [debug] [35m[ADB][39m Install command stdout: pkg: /data/local/tmp/appium_cache/d2a45cebce1a47815720bb183a39cd5ef8f5f056.apk
 [debug] [35m[ADB][39m Error: java.lang.SecurityException: You need the android.permission.INSTALL_GRANT_RUNTIME_PERMISSIONS permission to use the PackageManager.INSTALL_GRANT_RUNTIME_PERMISSIONS flag
 [debug] [35m[UiAutomator2][39m Performing shallow cleanup of automation leftovers
@@ -204,23 +204,23 @@
 [35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@4.12.2@appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.12.2.apk' and test from 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@4.12.2@appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
 [35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
 [debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","ca80bea4","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
-[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
-[35m[WD Proxy][39m socket hang up
 [debug] [35m[Instrumentation][39m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
 [debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
 [35m[WD Proxy][39m socket hang up
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
 [debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+[35m[WD Proxy][39m socket hang up
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
-[debug] [35m[UiAutomator2][39m The initialization of the instrumentation process took 3645ms
+[debug] [35m[UiAutomator2][39m The initialization of the instrumentation process took 3105ms
 [debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
-[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"D:\\je\\git_sample\\KS_sample\\Calculator-10.1.20.apk","autoGrantPermissions":true,"deviceId":"ca80bea4","deviceName":"Xiaomi Redmi Note 3 (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","udid":"ca80bea4","chromedriverPort":54350},"platformName":"android","app":"D:\\je\\git_sample\\KS_sample\\Calculator-10.1.20.apk","autoGrantPermissions":true,"deviceId":"ca80bea4","deviceName":"ca80bea4","fullReset":false,"newCommandTimeout":1800,"noReset":true,"udid":"ca80bea4","chromedriverPort":54350,"deviceUDID":"ca80bea4","appPackage":"com.miui.calculator"}],"alwaysMatch":{}}}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"b08b52c0-e27a-492b-8dce-1b8b2a93720d","value":{"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"D:\\je\\git_sample\\KS_sample\\Calculator-10.1.20.apk","autoGrantPermissions":true,"deviceId":"ca80bea4","deviceName":"Xiaomi Redmi Note 3 (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","udid":"ca80bea4","chromedriverPort":54350},"platformName":"android","app":"D:\\je\\git_sample\\KS_sample\\Calculator-10.1.20.apk","autoGrantPermissions":true,"deviceId":"ca80bea4","deviceName":"ca80bea4","fullReset":false,"newCommandTimeout":1800,"noReset":true,"udid":"ca80bea4","chromedriverPort":54350,"deviceUDID":"ca80bea4","appPackage":"com.miui.calculator"}],"alwaysMatch":{}},"sessionId":"b08b52c0-e27a-492b-8dce-1b8b2a93720d"}}
+[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"D:\\je\\git_sample\\KS_sample\\Calculator-10.1.20.apk","autoGrantPermissions":true,"deviceId":"ca80bea4","deviceName":"Xiaomi Redmi Note 3 (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","udid":"ca80bea4","chromedriverPort":55509},"platformName":"android","app":"D:\\je\\git_sample\\KS_sample\\Calculator-10.1.20.apk","autoGrantPermissions":true,"deviceId":"ca80bea4","deviceName":"ca80bea4","fullReset":false,"newCommandTimeout":1800,"noReset":true,"udid":"ca80bea4","chromedriverPort":55509,"deviceUDID":"ca80bea4","appPackage":"com.miui.calculator"}],"alwaysMatch":{}}}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"76b958ca-f0f1-4a18-be3f-d4f20584a969","value":{"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"D:\\je\\git_sample\\KS_sample\\Calculator-10.1.20.apk","autoGrantPermissions":true,"deviceId":"ca80bea4","deviceName":"Xiaomi Redmi Note 3 (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","udid":"ca80bea4","chromedriverPort":55509},"platformName":"android","app":"D:\\je\\git_sample\\KS_sample\\Calculator-10.1.20.apk","autoGrantPermissions":true,"deviceId":"ca80bea4","deviceName":"ca80bea4","fullReset":false,"newCommandTimeout":1800,"noReset":true,"udid":"ca80bea4","chromedriverPort":55509,"deviceUDID":"ca80bea4","appPackage":"com.miui.calculator"}],"alwaysMatch":{}},"sessionId":"76b958ca-f0f1-4a18-be3f-d4f20584a969"}}
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
-[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/wd/hub/session/b08b52c0-e27a-492b-8dce-1b8b2a93720d/appium/device/info] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"b08b52c0-e27a-492b-8dce-1b8b2a93720d","value":{"androidId":"7cecf5c38ccb2418","apiVersion":"23","bluetooth":{"state":"OFF"},"brand":"Xiaomi","carrierName":"","displayDensity":480,"locale":"en_US","manufacturer":"Xiaomi","model":"Redmi Note 3","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCapabilities":"NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_INTERNET,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_VALIDATED","signalStrength":-43,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"BLOCKED","extraInfo":null,"isAvailable":true,"isConnected":false,"isFailover":false,"isRoaming":false,"state":"DISCONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":0,"linkUpstreamBandwidthKbps":0,"networkCapabilities":"NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_VALIDATED","signalStrength":-2147483648,"transportT...
+[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/wd/hub/session/76b958ca-f0f1-4a18-be3f-d4f20584a969/appium/device/info] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"76b958ca-f0f1-4a18-be3f-d4f20584a969","value":{"androidId":"7cecf5c38ccb2418","apiVersion":"23","bluetooth":{"state":"OFF"},"brand":"Xiaomi","carrierName":"","displayDensity":480,"locale":"en_US","manufacturer":"Xiaomi","model":"Redmi Note 3","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCapabilities":"NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_INTERNET,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_VALIDATED","signalStrength":-45,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"BLOCKED","extraInfo":null,"isAvailable":true,"isConnected":false,"isFailover":false,"isRoaming":false,"state":"DISCONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":0,"linkUpstreamBandwidthKbps":0,"networkCapabilities":"NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_VALIDATED","signalStrength":-2147483648,"transportT...
 [debug] [35m[ADB][39m Running 'C:\Users\Administrator\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ca80bea4 shell dumpsys window'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m Starting 'com.miui.calculator/com.miui.calculator.cal.CalculatorActivity and waiting for 'com.miui.calculator/com.miui.calculator.cal.CalculatorActivity'
@@ -230,19 +230,19 @@
 [debug] [35m[ADB][39m Getting focused package and activity
 [debug] [35m[ADB][39m Running 'C:\Users\Administrator\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ca80bea4 shell dumpsys window windows'
 [debug] [35m[ADB][39m Found package: 'com.miui.calculator' and fully qualified activity name : 'com.miui.calculator.cal.CalculatorActivity'
-[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/wd/hub/session/b08b52c0-e27a-492b-8dce-1b8b2a93720d/appium/device/pixel_ratio] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"b08b52c0-e27a-492b-8dce-1b8b2a93720d","value":3}
+[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/wd/hub/session/76b958ca-f0f1-4a18-be3f-d4f20584a969/appium/device/pixel_ratio] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"76b958ca-f0f1-4a18-be3f-d4f20584a969","value":3}
 [debug] [35m[WD Proxy][39m Matched '/appium/device/system_bars' to command name 'getSystemBars'
-[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/wd/hub/session/b08b52c0-e27a-492b-8dce-1b8b2a93720d/appium/device/system_bars] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"b08b52c0-e27a-492b-8dce-1b8b2a93720d","value":{"statusBar":72}}
+[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/wd/hub/session/76b958ca-f0f1-4a18-be3f-d4f20584a969/appium/device/system_bars] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"76b958ca-f0f1-4a18-be3f-d4f20584a969","value":{"statusBar":72}}
 [debug] [35m[WD Proxy][39m Matched '/window/current/size' to command name 'getWindowSize'
-[debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/wd/hub/session/b08b52c0-e27a-492b-8dce-1b8b2a93720d/window/current/size] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"b08b52c0-e27a-492b-8dce-1b8b2a93720d","value":{"height":1920,"width":1080}}
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 614a3b8b-69b1-460e-bb2b-d136636d76ce added to master session list
-[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1600874385361 (23:19:45 GMT+0800 (GMT+08:00))
-[debug] [35m[W3C (614a3b8b)][39m Cached the protocol value 'W3C' for the new session 614a3b8b-69b1-460e-bb2b-d136636d76ce
-[debug] [35m[W3C (614a3b8b)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"D:\\je\\git_sample\\KS_sample\\Calculator-10.1.20.apk","autoGrantPermissions":true,"deviceId":"ca80bea4","deviceName":"Xiaomi Redmi Note 3 (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","udid":"ca80bea4","chromedriverPort":54350},"platformName":"android","app":"D:\\je\\git_sample\\KS_sample\\Calculator-10.1.20.apk","autoGrantPermissions":true,"deviceId":"ca80bea4","deviceName":"ca80bea4","fullReset":false,"newCommandTimeout":1800,"noReset":true,"udid":"ca80bea4","chromedriverPort":54350,"deviceUDID":"ca80bea4","appPackage":"com.miui.calculator","deviceApiLevel":23,"platformVersion":"6.0.1","deviceScreenSize":"1080x1920","deviceScreenDensity":480,"deviceModel":"Redmi Note 3","deviceManufacturer":"Xiaomi","pi...
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m30245 ms - 1176[39m
+[debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/wd/hub/session/76b958ca-f0f1-4a18-be3f-d4f20584a969/window/current/size] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"76b958ca-f0f1-4a18-be3f-d4f20584a969","value":{"height":1920,"width":1080}}
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 978369a4-6a2b-4f1f-bf49-ba75103a3e29 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1600875011672 (23:30:11 GMT+0800 (GMT+08:00))
+[debug] [35m[W3C (978369a4)][39m Cached the protocol value 'W3C' for the new session 978369a4-6a2b-4f1f-bf49-ba75103a3e29
+[debug] [35m[W3C (978369a4)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"D:\\je\\git_sample\\KS_sample\\Calculator-10.1.20.apk","autoGrantPermissions":true,"deviceId":"ca80bea4","deviceName":"Xiaomi Redmi Note 3 (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","udid":"ca80bea4","chromedriverPort":55509},"platformName":"android","app":"D:\\je\\git_sample\\KS_sample\\Calculator-10.1.20.apk","autoGrantPermissions":true,"deviceId":"ca80bea4","deviceName":"ca80bea4","fullReset":false,"newCommandTimeout":1800,"noReset":true,"udid":"ca80bea4","chromedriverPort":55509,"deviceUDID":"ca80bea4","appPackage":"com.miui.calculator","deviceApiLevel":23,"platformVersion":"6.0.1","deviceScreenSize":"1080x1920","deviceScreenDensity":480,"deviceModel":"Redmi Note 3","deviceManufacturer":"Xiaomi","pi...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m11755 ms - 1176[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
@@ -250,49 +250,49 @@
 [debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.18.1"}}
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/614a3b8b-69b1-460e-bb2b-d136636d76ce/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/978369a4-6a2b-4f1f-bf49-ba75103a3e29/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[debug] [35m[W3C (614a3b8b)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,60000,"614a3b8b-69b1-460e-bb2b-d136636d76ce"]
+[debug] [35m[W3C (978369a4)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,60000,"978369a4-6a2b-4f1f-bf49-ba75103a3e29"]
 [debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":60000}}
 [debug] [35m[BaseDriver][39m Set implicit wait to 60000ms
-[debug] [35m[W3C (614a3b8b)][39m Responding to client with driver.timeouts() result: null
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/614a3b8b-69b1-460e-bb2b-d136636d76ce/timeouts [39m[32m200[39m [90m8 ms - 14[39m
+[debug] [35m[W3C (978369a4)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/978369a4-6a2b-4f1f-bf49-ba75103a3e29/timeouts [39m[32m200[39m [90m5 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/614a3b8b-69b1-460e-bb2b-d136636d76ce/execute/sync[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/978369a4-6a2b-4f1f-bf49-ba75103a3e29/execute/sync[39m
 [35m[HTTP][39m [90m{"script":"var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;","args":[]}[39m
-[debug] [35m[W3C (614a3b8b)][39m Calling AppiumDriver.execute() with args: ["var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;",[],"614a3b8b-69b1-460e-bb2b-d136636d76ce"]
-[debug] [35m[W3C (614a3b8b)][39m Encountered internal error running command: NotImplementedError: Method is not implemented
-[debug] [35m[W3C (614a3b8b)][39m     at AndroidUiautomator2Driver.execute (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-android-driver@4.39.0@appium-android-driver\lib\commands\execute.js:14:11)
-[debug] [35m[W3C (614a3b8b)][39m     at commandExecutor (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@7.2.0@appium-base-driver\lib\basedriver\driver.js:334:9)
-[debug] [35m[W3C (614a3b8b)][39m     at C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_async-lock@1.2.4@async-lock\lib\index.js:125:12
-[debug] [35m[W3C (614a3b8b)][39m     at AsyncLock._promiseTry (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_async-lock@1.2.4@async-lock\lib\index.js:249:31)
-[debug] [35m[W3C (614a3b8b)][39m     at exec (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_async-lock@1.2.4@async-lock\lib\index.js:124:9)
-[debug] [35m[W3C (614a3b8b)][39m     at AsyncLock.acquire (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_async-lock@1.2.4@async-lock\lib\index.js:140:3)
-[debug] [35m[W3C (614a3b8b)][39m     at AndroidUiautomator2Driver.executeCommand (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@7.2.0@appium-base-driver\lib\basedriver\driver.js:347:39)
-[debug] [35m[W3C (614a3b8b)][39m     at AppiumDriver.executeCommand (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\lib\appium.js:534:36)
-[debug] [35m[W3C (614a3b8b)][39m     at processTicksAndRejections (internal/process/task_queues.js:97:5)
-[debug] [35m[W3C (614a3b8b)][39m     at asyncHandler (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@6.2.3@appium-base-driver\lib\protocol\protocol.js:297:21)
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/614a3b8b-69b1-460e-bb2b-d136636d76ce/execute/sync [39m[33m405[39m [90m132 ms - 1773[39m
+[debug] [35m[W3C (978369a4)][39m Calling AppiumDriver.execute() with args: ["var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;",[],"978369a4-6a2b-4f1f-bf49-ba75103a3e29"]
+[debug] [35m[W3C (978369a4)][39m Encountered internal error running command: NotImplementedError: Method is not implemented
+[debug] [35m[W3C (978369a4)][39m     at AndroidUiautomator2Driver.execute (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-android-driver@4.39.0@appium-android-driver\lib\commands\execute.js:14:11)
+[debug] [35m[W3C (978369a4)][39m     at commandExecutor (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@7.2.0@appium-base-driver\lib\basedriver\driver.js:334:9)
+[debug] [35m[W3C (978369a4)][39m     at C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_async-lock@1.2.4@async-lock\lib\index.js:125:12
+[debug] [35m[W3C (978369a4)][39m     at AsyncLock._promiseTry (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_async-lock@1.2.4@async-lock\lib\index.js:249:31)
+[debug] [35m[W3C (978369a4)][39m     at exec (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_async-lock@1.2.4@async-lock\lib\index.js:124:9)
+[debug] [35m[W3C (978369a4)][39m     at AsyncLock.acquire (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_async-lock@1.2.4@async-lock\lib\index.js:140:3)
+[debug] [35m[W3C (978369a4)][39m     at AndroidUiautomator2Driver.executeCommand (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@7.2.0@appium-base-driver\lib\basedriver\driver.js:347:39)
+[debug] [35m[W3C (978369a4)][39m     at AppiumDriver.executeCommand (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\lib\appium.js:534:36)
+[debug] [35m[W3C (978369a4)][39m     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[debug] [35m[W3C (978369a4)][39m     at asyncHandler (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@6.2.3@appium-base-driver\lib\protocol\protocol.js:297:21)
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/978369a4-6a2b-4f1f-bf49-ba75103a3e29/execute/sync [39m[33m405[39m [90m96 ms - 1773[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/614a3b8b-69b1-460e-bb2b-d136636d76ce[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/978369a4-6a2b-4f1f-bf49-ba75103a3e29[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (614a3b8b)][39m Calling AppiumDriver.deleteSession() with args: ["614a3b8b-69b1-460e-bb2b-d136636d76ce"]
-[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1600874394625 (23:19:54 GMT+0800 (GMT+08:00))
-[35m[Appium][39m Removing session 614a3b8b-69b1-460e-bb2b-d136636d76ce from our master session list
+[debug] [35m[W3C (978369a4)][39m Calling AppiumDriver.deleteSession() with args: ["978369a4-6a2b-4f1f-bf49-ba75103a3e29"]
+[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1600875451973 (23:37:31 GMT+0800 (GMT+08:00))
+[35m[Appium][39m Removing session 978369a4-6a2b-4f1f-bf49-ba75103a3e29 from our master session list
 [debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
 [debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
 [debug] [35m[WD Proxy][39m Matched '/' to command name 'deleteSession'
-[debug] [35m[WD Proxy][39m Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/wd/hub/session/b08b52c0-e27a-492b-8dce-1b8b2a93720d] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"b08b52c0-e27a-492b-8dce-1b8b2a93720d","value":null}
+[debug] [35m[WD Proxy][39m Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/wd/hub/session/76b958ca-f0f1-4a18-be3f-d4f20584a969] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"76b958ca-f0f1-4a18-be3f-d4f20584a969","value":null}
 [debug] [35m[ADB][39m Running 'C:\Users\Administrator\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ca80bea4 shell am force-stop com.miui.calculator'
 [debug] [35m[Instrumentation][39m .
 [debug] [35m[Logcat][39m Stopping logcat capture
 [debug] [35m[ADB][39m Removing forwarded port socket connection: 8200 
 [debug] [35m[ADB][39m Running 'C:\Users\Administrator\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ca80bea4 forward --remove tcp\:8200'
-[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1600874396489 (23:19:56 GMT+0800 (GMT+08:00))
-[debug] [35m[W3C (614a3b8b)][39m Received response: null
-[debug] [35m[W3C (614a3b8b)][39m But deleting session, so not returning
-[debug] [35m[W3C (614a3b8b)][39m Responding to client with driver.deleteSession() result: null
-[debug] [35m[W3C (614a3b8b)][39m Destroying socket connection
-[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/614a3b8b-69b1-460e-bb2b-d136636d76ce [39m[32m200[39m [90m1866 ms - 14[39m
+[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1600875452847 (23:37:32 GMT+0800 (GMT+08:00))
+[debug] [35m[W3C (978369a4)][39m Received response: null
+[debug] [35m[W3C (978369a4)][39m But deleting session, so not returning
+[debug] [35m[W3C (978369a4)][39m Responding to client with driver.deleteSession() result: null
+[debug] [35m[W3C (978369a4)][39m Destroying socket connection
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/978369a4-6a2b-4f1f-bf49-ba75103a3e29 [39m[32m200[39m [90m877 ms - 14[39m
 [35m[HTTP][39m [90m[39m
