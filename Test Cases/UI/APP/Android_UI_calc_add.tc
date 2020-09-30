@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Android_UI_calc_add</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>84eb2fb8-1b78-4a69-9b52-a7dd6ddf79bc</testCaseGuid>
+   <variable>
+      <defaultValue>'7'</defaultValue>
+      <description></description>
+      <id>18d45597-506f-4d47-af8c-f8664253c980</id>
+      <masked>false</masked>
+      <name>var_a</name>
+   </variable>
+   <variable>
+      <defaultValue>'8'</defaultValue>
+      <description></description>
+      <id>261913c3-31e0-4e8b-860f-389e3e4213d7</id>
+      <masked>false</masked>
+      <name>var_b</name>
+   </variable>
+   <variable>
+      <defaultValue>'= 15'</defaultValue>
+      <description></description>
+      <id>f86ac12b-1ca2-4dba-a21d-c5f8c929bd66</id>
+      <masked>false</masked>
+      <name>add_result</name>
+   </variable>
+</TestCaseEntity>
