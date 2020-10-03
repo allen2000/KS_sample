@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>WEB_UI_Selenium_baidu</name>
+   <name>APP_UI_Appium_calc</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b00c2576-be69-4f54-b8df-235ceaad53f7</testCaseGuid>
+   <testCaseGuid>0e8b0304-9b41-470b-9fb2-4d3d24aafda0</testCaseGuid>
 </TestCaseEntity>
