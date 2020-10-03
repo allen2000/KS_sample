@@ -23,7 +23,7 @@
 &lt;/Envelope></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod>SOAP</soapRequestMethod>
-   <soapServiceFunction></soapServiceFunction>
+   <soapServiceFunction>Add</soapServiceFunction>
    <variables>
       <defaultValue>findTestData('CALC').getValue(1, 1)</defaultValue>
       <description></description>
