@@ -20,7 +20,8 @@ import io.appium.java_client.android.AndroidDriver;
 
 DesiredCapabilities capabilities = new DesiredCapabilities();
 capabilities.setCapability("platformName", "Android");
-capabilities.setCapability("udid", "48629002");
+capabilities.setCapability("udid", "xxxxx");
+capabilities.setCapability("noReset","true")
 driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 driver.findElementByXPath('//android.widget.TextView[@content-desc="计算器"]').click()
 Thread.sleep(1000)
